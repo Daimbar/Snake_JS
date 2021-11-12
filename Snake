@@ -11,7 +11,5 @@ input.onButtonPressed(Button.A+Button.B, function () {
     basic.pause(1000)
     let fruits = (randint(0, 4))
     led.plot (fruits,fruits);
-    led.plot (1,3) 
-    
-
-})
+    basic.forever(function (): led.toggle{1, 3;
+)})
