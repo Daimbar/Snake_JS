@@ -8,6 +8,6 @@ input.onButtonPressed(Button.A+Button.B, function () {
     basic.showString("1")
     basic.clearScreen()
     basic.pause(1000)
-    led.plot(randint(1,5), randint(1,5))
-
+    let fruits = (randint(0, 4), randint(0,4))
+    led.plot; (fruits);
 })
