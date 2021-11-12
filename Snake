@@ -1,0 +1,12 @@
+input.onButtonPressed(Button.A+Button.B, function () {
+    basic.pause(1000)
+    basic.showString("3")
+    basic.clearScreen()
+    basic.pause(1000)
+    basic.showString("2")
+    basic.clearScreen()
+    basic.pause(1000)
+    basic.showString("1")
+    basic.clearScreen()
+    led.plot(randint(1,5), randint(1,5))
+})
