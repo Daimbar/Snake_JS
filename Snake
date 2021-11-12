@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A+Button.B, function () {
-    basic.clearScreen
+    basic.clearScreen()
     basic.showString("3")
     basic.clearScreen()
     basic.pause(1000)
