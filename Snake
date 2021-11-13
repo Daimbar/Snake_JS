@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A+Button.B, function () {
+input.onButtonPressed(Button.A + Button.B, function () {
     basic.clearScreen()
     basic.showString("3")
     basic.clearScreen()
@@ -9,7 +9,11 @@ input.onButtonPressed(Button.A+Button.B, function () {
     basic.showString("1")
     basic.clearScreen()
     basic.pause(1000)
+    //Fruits eating//
     let fruits = (randint(0, 4))
-    led.plot (fruits,fruits);
-    basic.forever(function (): led.toggle{1, 3;
-)})
+    led.plot(fruits, fruits);
+    //Snake Body and movement//
+    let snake = game.createSprite(2, 3);
+    led.plot (snake);
+
+})
